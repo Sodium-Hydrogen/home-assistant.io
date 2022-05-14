@@ -265,7 +265,7 @@ preset_mode_value_template:
   required: false
   type: string
 preset_modes:
-  description: List of preset modes this climate is supporting. Common examples include `eco`, `away`, `boost`, `comfort`, `home`, `sleep` and `activity`.
+  description: List of preset modes this climate is supporting. Common examples include `eco`, `away`, `boost`, `comfort`, `home`, `sleep` and `activity`. `preset_mode_command_topic` is required when using this.
   required: false
   type: [list]
   default: []
